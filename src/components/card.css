@@ -1,0 +1,75 @@
+.upc {
+  display: flex;
+  width: 279px;
+  padding: 14px;
+  flex-direction: column;
+  /* margin: -5px; */
+  margin-bottom: 7px;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  background: white;
+}
+  
+  .title{
+    /* font-weight: bold; */
+    margin: 11px 0px;
+  }
+
+  .profile-down {
+    
+    width: 100%; 
+  }
+  
+  .profile-down div{
+    
+    display: inline-block;
+    margin-top: 6px;
+  }
+  
+
+  .profile-down img {
+    float: right;
+    height: 38px;
+    border-radius: 50%;
+  }
+
+  .feature{
+    display: flex;
+    /* padding: 4px; */
+  }
+  .switch{
+    padding: 4px;
+    border: 1px solid #c0bcbc;
+    margin-right: 8px;
+    border-radius: 5px;
+  }
+
+  button{
+    width: 23px;
+    color: white;
+    background: #7d7d7d;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 3px;
+  }
+
+  .req{
+    display: flex;
+    /* padding: 4px; */
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    padding-right: 8px;
+    color: grey;
+    border: 1px solid #c0bcbc;
+    border-radius: 7px;
+  }
+  .dot{
+    background: #b0adad;
+    width: 14px;
+    height: 14px;
+    /* margin: 7px; */
+    margin-right: 5px;
+    border-radius: 50%;
+  }

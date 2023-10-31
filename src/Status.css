@@ -1,0 +1,55 @@
+/* Styling for the main container */
+.status-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 20px; 
+  }
+  
+  /* Styling for each status column */
+  .status-column {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    min-width: 250px;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Styling for the status titles */
+  .status-title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  /* Styling for the ticket list */
+  .ticket-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Styling for Card component (you can customize this further) */
+  .Card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    .status-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .status-column {
+      width: 80%;
+    }
+  }
+  
