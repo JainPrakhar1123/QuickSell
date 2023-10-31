@@ -1,13 +1,12 @@
-.upc {
-  display: flex;
-  width: 279px;
-  padding: 14px;
-  flex-direction: column;
-  /* margin: -5px; */
-  margin-bottom: 7px;
-  border-radius: 15px;
-  padding-bottom: 20px;
-  background: white;
+
+  .upc {
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7px;
+    padding: 13px 10px 15px;
+    width: 273px;
 }
   
   .title{
